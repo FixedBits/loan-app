@@ -1,7 +1,7 @@
 /**
  * Title: contact.component.ts
- * Author: Professor Krasso
- * Date: 24 April 2020
+ * Author: Victor Soto
+ * Date: 05/12/2024
  * Description: Contact component (contact page)
  */
 

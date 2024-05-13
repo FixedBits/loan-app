@@ -1,7 +1,7 @@
 /**
  * Title: app.component.ts
  * Author: Victor Soto
- * Date: 04/21/2024
+ * Date: 05/13/2024
  * Description: App component
  * Source: https://github.com/buwebdev/web-425/tree/master/week-5/
  */

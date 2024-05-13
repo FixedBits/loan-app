@@ -1,9 +1,9 @@
 /**
  * Title: app-routing.module.ts
  * Author: Victor Soto
- * Date: 04/21/2024
+ * Date: 05/12/2024
  * Description: Routing file
- * Source: https://github.com/buwebdev/web-425/tree/master/week-5/
+ * Source: https://github.com/buwebdev/web-425 (previous assignment)
  */
 
 

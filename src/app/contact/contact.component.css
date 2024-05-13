@@ -23,3 +23,11 @@
 .card-title-icon {
   padding-right: 45px;
 }
+
+.align-center {
+  font-size: 19px;
+}
+
+div[fxLayout="column"] p {
+  font-size: 18px;
+}
