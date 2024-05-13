@@ -1,0 +1,35 @@
+.logo {
+  margin-top: 5px;
+  margin-left: 26px;
+}
+
+.logo a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+
+.main-container {
+  padding-top: 0%;
+  padding-bottom: 30px;
+  width: 91%;
+  margin: auto;
+
+}
+
+.toolbar
+{
+  background-color: rgb(233, 227, 11, 100);
+  margin-right: 0%;
+  border: 7px solid rgb(71, 71, 71);
+
+}
+
+div[fxLayout] button {
+  color: rgb(95, 95, 95);
+  font-size: 16px;
+  margin-left: 35px;
+
+}

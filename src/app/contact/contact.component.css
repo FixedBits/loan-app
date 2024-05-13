@@ -1,0 +1,25 @@
+.logo {
+  margin-top: 5px;
+}
+
+.main-container {
+  padding-top: 25px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.home-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 11%;
+
+}
+
+.icon-color {
+  color: yellow;
+}
+
+.card-title-icon {
+  padding-right: 45px;
+}
