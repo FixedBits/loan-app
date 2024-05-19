@@ -3,6 +3,11 @@
 ; Title: home.component.html
 ; Author: Victor Soto
 ; Date: 05/12/2024
+; Updated Date: 05/19/2024
+; Description: Home Component (Calculator Interface)
+; Sources:
+;  https://angular.io/api/forms/NgModel
+;  https://www.tektutorialshub.com/angular/ngmodel-two-way-data-binding-in-angular/
 ;===========================================
 -->
 
@@ -14,24 +19,21 @@
       <mat-card-content>
         <div class="field">
           <label for="loanAmount">Loan amount:</label>
-
-          <input type="number" id="loanAmount">
+          <input type="text" [(ngModel)]="loanAmount" id="loanAmount">
         </div>
         <br>
         <div class="field">
           <label for="interestRate">Interest rate (ex. 4.5):</label>
-
-          <input type="number" id="interestRate">
+          <input type="number" [(ngModel)]="interestRate" id="interestRate">
         </div>
         <br>
         <div class="field">
           <label for="numYears">Number of years:</label>
-
-          <input type="number" id="numYears">
+          <input type="number" [(ngModel)]="numYears" id="numYears">
         </div>
         <br>
         <div class="submit-button">
-          <button mat-button>Submit</button>
+          <button mat-button (click)="calculatePayment()">Submit</button>
         </div>
       </mat-card-content>
     </div>
@@ -44,15 +46,16 @@
         <div class="output-field">
           <p class="output-title">Your monthly payment:</p>
           <br> <br>
-          <p class="output-result">$124.21</p>
+          <p class="output-result">{{monthlyPayment | currency}}</p>
         </div>
         <br> <br> <br>
         <div class="output-field">
           <p class="output-title">Interest paid:</p>
           <br> <br>
-          <p class="output-result">$646.08</p>
+          <p class="output-result">{{totalInterest | currency}}</p>
         </div>
       </mat-card-content>
       <div>
       </div>
     </div>
+  </div>
